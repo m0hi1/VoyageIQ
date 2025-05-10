@@ -98,3 +98,9 @@
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T14:21:33.813Z"}
 {"level":"info","message":"Server running on port 3050 in development mode","timestamp":"2025-05-10T14:22:34.083Z"}
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T14:22:35.333Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-10T15:05:50.782Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T15:05:51.501Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-10T15:26:53.655Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T15:26:54.689Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-10T15:36:31.208Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T15:36:31.905Z"}
