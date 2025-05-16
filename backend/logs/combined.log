@@ -104,3 +104,100 @@
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T15:26:54.689Z"}
 {"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-10T15:36:31.208Z"}
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-10T15:36:31.905Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:29:58.205Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:29:58.717Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:32:11.814Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:32:12.399Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:32:18.161Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:32:18.661Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:32:31.707Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:32:32.982Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:32:33.557Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:33:22.299Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:33:22.882Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:34:48.001Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:34:48.546Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:34:53.730Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:34:54.236Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:35:27.750Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:35:28.257Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T06:35:30.351Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T06:35:30.829Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T07:09:28.960Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T07:09:29.575Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T07:19:47.941Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T07:19:48.518Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T07:24:07.659Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T07:24:08.584Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T07:24:29.163Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T07:24:29.796Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T07:25:06.143Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T07:25:07.810Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T07:46:16.358Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T07:46:17.054Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T08:00:22.690Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T08:00:23.333Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T08:00:59.995Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T08:01:00.575Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T08:02:30.290Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T08:02:31.795Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T08:11:13.179Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T08:11:13.821Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T09:18:06.072Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T09:18:08.029Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T09:48:25.898Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T09:48:27.550Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T09:48:51.228Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T09:48:53.105Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T10:58:55.894Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T10:58:56.695Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T10:59:29.210Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T10:59:29.823Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:00:13.101Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:00:13.693Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:06:04.295Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:06:05.086Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:22:24.175Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:22:24.928Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:26:45.787Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:26:46.634Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:27:10.945Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:27:11.581Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:39:13.903Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:39:14.904Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:40:14.440Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:40:16.196Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:41:15.320Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:41:16.002Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:44:03.638Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:44:04.358Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:44:34.494Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:44:35.073Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T11:46:59.655Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T11:47:00.219Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T13:01:59.637Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T13:02:00.300Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:13:40.223Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:13:40.840Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:18:19.441Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:18:19.983Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:47:17.174Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:47:17.634Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:48:52.941Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:48:53.606Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:50:21.411Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:50:21.905Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:50:40.772Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:50:42.257Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T14:51:01.331Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T14:51:02.824Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T15:09:56.930Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T15:09:57.645Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T15:21:59.507Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T15:22:00.578Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T15:22:54.073Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.voyageiq.88ydvvm.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.voyageiq.88ydvvm.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.voyageiq.88ydvvm.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)","syscall":"querySrv","timestamp":"2025-05-16T15:23:13.489Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T16:31:26.451Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T16:31:27.183Z"}
+{"level":"info","message":"Server running on port 3050 in production mode","timestamp":"2025-05-16T16:38:15.706Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-05-16T16:38:16.416Z"}
