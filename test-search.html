@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Test Search API</title>
+</head>
+
+<body>
+  <h1>Test Search API</h1>
+  <button onclick="testSearch()">Test Search</button>
+  <div id="result"></div>
+
+  <script>
+    async function testSearch() {
+      try {
+        const response = await fetch('http://localhost:3050/api/v1/tours/search?search=Rome&adults=1&children=0&minPrice=100&maxPrice=20000');
+
+        // Check if response is ok
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        // Check if response is JSON
+        const contentType = response.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          throw new Error('Server returned non-JSON response');
+        }
+
+        const result = await response.json();
+        document.getElementById('result').innerHTML = `
+                    <h2>Success!</h2>
+                    <p>Found ${result.count} tours</p>
+                    <pre>${JSON.stringify(result, null, 2)}</pre>
+                `;
+      } catch (error) {
+        document.getElementById('result').innerHTML = `
+                    <h2>Error:</h2>
+                    <p>${error.message}</p>
+                `;
+      }
+    }
+  </script>
+</body>
+
+</html>
