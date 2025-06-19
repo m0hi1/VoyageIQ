@@ -75,6 +75,13 @@ node_modules/
 
 
 
+# Gatsby files
+.cache/
+
+# Storybook build outputs
+.out
+.storybook-out
+
 # Temporary folders
 tmp/
 temp/

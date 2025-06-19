@@ -73,7 +73,16 @@ node_modules/
 # Next.js build output
 .next
 
+# Nuxt.js build / generate output
+.nuxt
+dist
 
+# Gatsby files
+.cache/
+
+# Storybook build outputs
+.out
+.storybook-out
 
 # Temporary folders
 tmp/

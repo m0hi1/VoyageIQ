@@ -1,0 +1,1 @@
+import{j as e}from"./index-007Z5DPj.js";const s=()=>e.jsxs("div",{children:[e.jsx("h2",{className:"text-2xl font-semibold text-gray-800 mb-4",children:"Manage Reviews"}),e.jsx("p",{className:"text-gray-600",children:"Review management functionality will be implemented here. (List, View, Delete Reviews)"})]});export{s as default};

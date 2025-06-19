@@ -14,7 +14,10 @@ node_modules/
 coverage/
 .nyc_output
 
-
+# Production build
+build/
+dist/
+out/
 
 # Vite
 .vite/
@@ -53,6 +56,13 @@ pids
 # Output of 'npm pack'
 *.tgz
 
+# Yarn Integrity file
+.yarn-integrity
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static/
 
 # Temporary folders
 tmp/
@@ -81,6 +91,12 @@ Thumbs.db
 .firebase/
 firebase-debug.log
 firestore-debug.log
+
+# Sentry
+.sentryclirc
+
+# Bundle analyzer
+bundle-analyzer-report.html
 
 # PWA
 sw.js

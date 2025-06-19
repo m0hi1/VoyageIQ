@@ -14,7 +14,10 @@ node_modules/
 coverage/
 .nyc_output
 
-
+# Production build
+build/
+dist/
+out/
 
 # Vite
 .vite/

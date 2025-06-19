@@ -14,7 +14,10 @@ node_modules/
 coverage/
 .nyc_output
 
-
+# Production build
+build/
+dist/
+out/
 
 # Vite
 .vite/
@@ -53,6 +56,13 @@ pids
 # Output of 'npm pack'
 *.tgz
 
+# Yarn Integrity file
+.yarn-integrity
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static/
 
 # Temporary folders
 tmp/

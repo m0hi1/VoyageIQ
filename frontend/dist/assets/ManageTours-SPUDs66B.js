@@ -1,0 +1,1 @@
+import{j as e}from"./index-007Z5DPj.js";const s=()=>e.jsxs("div",{children:[e.jsx("h2",{className:"text-2xl font-semibold text-gray-800 mb-4",children:"Manage Tours"}),e.jsx("p",{className:"text-gray-600",children:"Tour management functionality will be implemented here. (List, Add, Edit, Delete Tours)"})]});export{s as default};

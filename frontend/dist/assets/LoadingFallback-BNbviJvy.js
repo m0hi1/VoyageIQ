@@ -1,0 +1,1 @@
+import{j as e}from"./index-007Z5DPj.js";const r=()=>e.jsx("div",{className:"min-h-screen flex items-center justify-center",children:e.jsxs("div",{className:"flex flex-col items-center",children:[e.jsx("div",{className:"animate-spin rounded-full h-16 w-16 border-b-4 border-primary"}),e.jsx("p",{className:"mt-4 text-lg",children:"Loading..."})]})});export{r as default};
