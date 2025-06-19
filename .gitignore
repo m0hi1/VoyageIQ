@@ -78,6 +78,7 @@ node_modules/
 # Temporary folders
 tmp/
 temp/
+.history
 
 # Docker
 .dockerignore

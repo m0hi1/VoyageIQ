@@ -137,9 +137,8 @@ const Booking = ({
       toast.error('Server not responding. Please try again.');
     }
   };
-
   return (
-    <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+    <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden w-full">
       {/* Header Section */}
       <div className="bg-gradient-to-r from-orange-500 to-red-500 p-6 text-white">
         <div className="flex justify-between items-start mb-4">
@@ -218,10 +217,8 @@ const Booking = ({
                   placeholder="Enter your phone number"
                   required
                 />
-              </div>
-
-              {/* Date and Guest Size Row */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              </div>              {/* Date and Guest Size Row */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     <FaCalendar className="inline mr-2" />
@@ -265,12 +262,10 @@ const Booking = ({
               gstAmount={bookingDetails.gstAmount}
               finalPrice={bookingDetails.finalPrice}
               guestSize={bookingDetails.guestSize}
-            />
-
-            {/* Book Button */}
+            />            {/* Book Button */}
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-4 px-4 sm:px-6 text-sm sm:text-base md:text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Book Now - ₹{bookingDetails.finalPrice.toLocaleString('en-IN')}
             </button>

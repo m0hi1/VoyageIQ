@@ -324,7 +324,7 @@ const TourDetails = () => {
                     />
                     <button
                       type="submit"
-                      className="bg-BaseColor hover:bg-BHoverColor text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap self-center sm:self-auto"
+                      className="w-full sm:w-auto bg-BaseColor hover:bg-BHoverColor text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap self-center"
                       disabled={isSubmittingReview}
                       aria-live="polite"
                     >
@@ -348,20 +348,20 @@ const TourDetails = () => {
                   reviewsArray.map((review, index) => (
                     <div
                       key={review._id || `review-${index}`}
-                      className="p-6 border border-gray-300 rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow duration-300"
+                      className="p-4 sm:p-6 border border-gray-300 rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow duration-300"
                     >
-                      <div className="flex items-start gap-5">
+                      <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-5">
                         <img
                           src={review.userAvatar || avatar}
                           alt={review.username || 'User'}
-                          className="w-14 h-14 rounded-full object-cover border-2 border-gray-300 shadow-sm"
+                          className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover border-2 border-gray-300 shadow-sm"
                         />
-                        <div className="flex-1">
-                          <div className="flex justify-between items-center mb-2">
-                            <h5 className="text-xl font-semibold text-gray-900 tracking-wide">
+                        <div className="flex-1 w-full">
+                          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2 gap-1">
+                            <h5 className="text-lg sm:text-xl font-semibold text-gray-900 tracking-wide">
                               {review.username || 'Anonymous'}
                             </h5>
-                            <span className="flex items-center gap-1 text-yellow-500 text-lg font-semibold">
+                            <span className="flex items-center gap-1 text-yellow-500 text-base sm:text-lg font-semibold">
                               {review.rating || 0} <FaStar />
                             </span>
                           </div>
@@ -373,7 +373,7 @@ const TourDetails = () => {
                               )}
                             </p>
                           )}
-                          <p className="text-gray-800 text-lg leading-relaxed">
+                          <p className="text-gray-800 text-base sm:text-lg leading-relaxed">
                             {review.reviewText || 'No review text.'}
                           </p>
                         </div>
@@ -390,8 +390,8 @@ const TourDetails = () => {
           </div>
 
           {/* Right Column: Booking */}
-          <div className="lg:w-1/3">
-            <div className="sticky top-24 bg-white rounded-lg shadow-lg border border-gray-200 p-6">
+          <div className="lg:col-span-1">
+            <div className="sticky top-24 w-full">
               <Booking
                 title={title}
                 price={price}
