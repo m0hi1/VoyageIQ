@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # MongoDB Service
+  mongo:
+    image: mongo:latest
+    container_name: voyageiq_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME:-root}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-password}
+      MONGO_INITDB_DATABASE: voyageiq
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - voyageiq_network
+
+  # Backend Service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: voyageiq_backend
+    restart: unless-stopped
+    ports:
+      - "3050:3050"
+    environment:
+      - NODE_ENV=development
+      - PORT=3050
+      - MONGO_URL=mongodb://${MONGO_USERNAME:-root}:${MONGO_PASSWORD:-password}@mongo:27017/voyageiq?authSource=admin
+      - JWT_SECRET=${JWT_SECRET:-your_jwt_secret_here}
+      - JWT_EXPIRES_IN=90d
+      - JWT_COOKIE_EXPIRES_IN=90
+      - CLIENT_URL=http://localhost:5173
+    depends_on:
+      - mongo
+    networks:
+      - voyageiq_network
+
+  # Frontend Service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: voyageiq_frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:3050/api/v1
+    depends_on:
+      - backend
+    networks:
+      - voyageiq_network
+
+networks:
+  voyageiq_network:
+    driver: bridge
+
+volumes:
+  mongo_data:
+    driver: local
